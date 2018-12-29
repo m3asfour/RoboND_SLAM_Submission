@@ -1,0 +1,25 @@
+For initializing the provided world and preform SLAM excute these commands
+
+roslaunch slam_project deploy_env_provided.launch
+
+roslaunch depthimage_to_laserscan depthimage_to_laserscan.test 
+
+roslaunch slam_project slam.launch
+
+roslaunch slam_project teleop.launch
+
+---------------------------------------------------------------
+
+For initializing the custom world and preform SLAM excute these commands
+
+roslaunch slam_project deploy_town.launch
+
+roslaunch depthimage_to_laserscan depthimage_to_laserscan.test 
+
+roslaunch slam_project slam.launch
+
+roslaunch slam_project teleop.launch
+
+---------------------------------------------------------------
+
+The database for the provided world is in the database folder
