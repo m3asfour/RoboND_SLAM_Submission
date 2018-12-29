@@ -22,4 +22,4 @@ roslaunch slam_project teleop.launch
 
 ---------------------------------------------------------------
 
-The database for the provided world is in the database folder
+The database for the provided world is in the project folder
